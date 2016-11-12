@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372C3ECF1DBA772700AF896F /* ItemDetailsVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C3ECE1DBA772700AF896F /* ItemDetailsVCViewController.swift */; };
+		372C3ED31DBA959000AF896F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372C3ED21DBA959000AF896F /* CustomTextField.swift */; };
 		379FC08F1DA2BE7C004574E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC08E1DA2BE7C004574E5 /* AppDelegate.swift */; };
-		379FC0911DA2BE7C004574E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0901DA2BE7C004574E5 /* ViewController.swift */; };
+		379FC0911DA2BE7C004574E5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0901DA2BE7C004574E5 /* MainVC.swift */; };
 		379FC0941DA2BE7C004574E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379FC0921DA2BE7C004574E5 /* Main.storyboard */; };
 		379FC0971DA2BE7C004574E5 /* iYarn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0951DA2BE7C004574E5 /* iYarn.xcdatamodeld */; };
 		379FC0991DA2BE7C004574E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379FC0981DA2BE7C004574E5 /* Assets.xcassets */; };
 		379FC09C1DA2BE7C004574E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379FC09A1DA2BE7C004574E5 /* LaunchScreen.storyboard */; };
+		379FC0CB1DA2ED9B004574E5 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0C31DA2ED9B004574E5 /* ItemType+CoreDataClass.swift */; };
+		379FC0CC1DA2ED9B004574E5 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0C41DA2ED9B004574E5 /* ItemType+CoreDataProperties.swift */; };
+		379FC0CD1DA2ED9B004574E5 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0C51DA2ED9B004574E5 /* Store+CoreDataClass.swift */; };
+		379FC0CE1DA2ED9B004574E5 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0C61DA2ED9B004574E5 /* Store+CoreDataProperties.swift */; };
+		379FC0CF1DA2ED9B004574E5 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0C71DA2ED9B004574E5 /* Image+CoreDataClass.swift */; };
+		379FC0D01DA2ED9B004574E5 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0C81DA2ED9B004574E5 /* Image+CoreDataProperties.swift */; };
+		379FC0D11DA2ED9B004574E5 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0C91DA2ED9B004574E5 /* Item+CoreDataClass.swift */; };
+		379FC0D21DA2ED9B004574E5 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379FC0CA1DA2ED9B004574E5 /* Item+CoreDataProperties.swift */; };
+		37F5888B1DA9663D00AB7D39 /* CapriShawl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37F5888A1DA9663D00AB7D39 /* CapriShawl.jpg */; };
+		37F5888E1DA9684000AB7D39 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F5888D1DA9684000AB7D39 /* MaterialView.swift */; };
+		37F588901DAAB26700AB7D39 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F5888F1DAAB26700AB7D39 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		372C3ECE1DBA772700AF896F /* ItemDetailsVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVCViewController.swift; sourceTree = "<group>"; };
+		372C3ED21DBA959000AF896F /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		379FC08B1DA2BE7C004574E5 /* iYarn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iYarn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379FC08E1DA2BE7C004574E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		379FC0901DA2BE7C004574E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		379FC0901DA2BE7C004574E5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		379FC0931DA2BE7C004574E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		379FC0961DA2BE7C004574E5 /* iYarn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iYarn.xcdatamodel; sourceTree = "<group>"; };
 		379FC0981DA2BE7C004574E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		379FC09B1DA2BE7C004574E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		379FC09D1DA2BE7C004574E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379FC0C31DA2ED9B004574E5 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ItemType+CoreDataClass.swift"; path = "../ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		379FC0C41DA2ED9B004574E5 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ItemType+CoreDataProperties.swift"; path = "../ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		379FC0C51DA2ED9B004574E5 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Store+CoreDataClass.swift"; path = "../Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		379FC0C61DA2ED9B004574E5 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Store+CoreDataProperties.swift"; path = "../Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		379FC0C71DA2ED9B004574E5 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataClass.swift"; path = "../Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		379FC0C81DA2ED9B004574E5 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataProperties.swift"; path = "../Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		379FC0C91DA2ED9B004574E5 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataClass.swift"; path = "../Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		379FC0CA1DA2ED9B004574E5 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataProperties.swift"; path = "../Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		37F5888A1DA9663D00AB7D39 /* CapriShawl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CapriShawl.jpg; sourceTree = "<group>"; };
+		37F5888D1DA9684000AB7D39 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		37F5888F1DAAB26700AB7D39 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		372C3ECD1DBA765D00AF896F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				379FC0901DA2BE7C004574E5 /* MainVC.swift */,
+				372C3ECE1DBA772700AF896F /* ItemDetailsVCViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		379FC0821DA2BE7B004574E5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +91,35 @@
 		379FC08D1DA2BE7C004574E5 /* iYarn */ = {
 			isa = PBXGroup;
 			children = (
+				37F5888C1DA966F100AB7D39 /* View */,
+				379FC0C91DA2ED9B004574E5 /* Item+CoreDataClass.swift */,
+				379FC0CA1DA2ED9B004574E5 /* Item+CoreDataProperties.swift */,
+				379FC0C31DA2ED9B004574E5 /* ItemType+CoreDataClass.swift */,
+				379FC0C41DA2ED9B004574E5 /* ItemType+CoreDataProperties.swift */,
+				379FC0C51DA2ED9B004574E5 /* Store+CoreDataClass.swift */,
+				379FC0C61DA2ED9B004574E5 /* Store+CoreDataProperties.swift */,
+				379FC0C71DA2ED9B004574E5 /* Image+CoreDataClass.swift */,
+				379FC0C81DA2ED9B004574E5 /* Image+CoreDataProperties.swift */,
 				379FC08E1DA2BE7C004574E5 /* AppDelegate.swift */,
-				379FC0901DA2BE7C004574E5 /* ViewController.swift */,
+				372C3ECD1DBA765D00AF896F /* Controller */,
 				379FC0921DA2BE7C004574E5 /* Main.storyboard */,
 				379FC0981DA2BE7C004574E5 /* Assets.xcassets */,
+				37F5888A1DA9663D00AB7D39 /* CapriShawl.jpg */,
 				379FC09A1DA2BE7C004574E5 /* LaunchScreen.storyboard */,
 				379FC09D1DA2BE7C004574E5 /* Info.plist */,
 				379FC0951DA2BE7C004574E5 /* iYarn.xcdatamodeld */,
 			);
 			path = iYarn;
+			sourceTree = "<group>";
+		};
+		37F5888C1DA966F100AB7D39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37F5888D1DA9684000AB7D39 /* MaterialView.swift */,
+				372C3ED21DBA959000AF896F /* CustomTextField.swift */,
+				37F5888F1DAAB26700AB7D39 /* ItemCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +154,7 @@
 				TargetAttributes = {
 					379FC08A1DA2BE7C004574E5 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2CT59S243C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -129,6 +185,7 @@
 				379FC09C1DA2BE7C004574E5 /* LaunchScreen.storyboard in Resources */,
 				379FC0991DA2BE7C004574E5 /* Assets.xcassets in Resources */,
 				379FC0941DA2BE7C004574E5 /* Main.storyboard in Resources */,
+				37F5888B1DA9663D00AB7D39 /* CapriShawl.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +196,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F588901DAAB26700AB7D39 /* ItemCell.swift in Sources */,
+				379FC0D11DA2ED9B004574E5 /* Item+CoreDataClass.swift in Sources */,
+				379FC0D01DA2ED9B004574E5 /* Image+CoreDataProperties.swift in Sources */,
+				379FC0CB1DA2ED9B004574E5 /* ItemType+CoreDataClass.swift in Sources */,
+				37F5888E1DA9684000AB7D39 /* MaterialView.swift in Sources */,
+				379FC0CD1DA2ED9B004574E5 /* Store+CoreDataClass.swift in Sources */,
+				379FC0CC1DA2ED9B004574E5 /* ItemType+CoreDataProperties.swift in Sources */,
+				379FC0CF1DA2ED9B004574E5 /* Image+CoreDataClass.swift in Sources */,
 				379FC0971DA2BE7C004574E5 /* iYarn.xcdatamodeld in Sources */,
-				379FC0911DA2BE7C004574E5 /* ViewController.swift in Sources */,
+				372C3ECF1DBA772700AF896F /* ItemDetailsVCViewController.swift in Sources */,
+				379FC0CE1DA2ED9B004574E5 /* Store+CoreDataProperties.swift in Sources */,
+				379FC0911DA2BE7C004574E5 /* MainVC.swift in Sources */,
+				379FC0D21DA2ED9B004574E5 /* Item+CoreDataProperties.swift in Sources */,
 				379FC08F1DA2BE7C004574E5 /* AppDelegate.swift in Sources */,
+				372C3ED31DBA959000AF896F /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CT59S243C;
 				INFOPLIST_FILE = iYarn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jclarkinconsulting.iYarn;
@@ -274,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CT59S243C;
 				INFOPLIST_FILE = iYarn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jclarkinconsulting.iYarn;
@@ -301,6 +372,7 @@
 				379FC0A21DA2BE7C004574E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
